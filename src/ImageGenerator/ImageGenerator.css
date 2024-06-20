@@ -1,0 +1,63 @@
+@import "../index.css";
+.ai-image__generator{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(var(--first-color), #FFFF);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+}
+.header{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+
+.header span{
+    color: rgb(230, 77, 103);
+}
+
+.img__loading{
+    min-width: 80vw;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__generator{
+    padding: 0.5rem .5rem;
+    background-color: var(--text-color);
+    border-radius: 2rem;
+    display: flex;
+    column-gap: 2rem;
+}
+
+.input__description{
+    background-color: var(--text-color);
+    border: none;
+    width: 400px;
+    outline-style: none;
+    color: rgb(230, 77, 103);
+}
+ 
+.input__description::placeholder{
+    color: rgb(230, 77, 103);
+}
+
+.input__generator-btn{
+    width: 100px;
+    color: var(--white-color);
+    background-color: rgb(230, 77, 103);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem ;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+.input__generator-btn:hover{
+    background-color: rgb(212, 38, 67);
+}
